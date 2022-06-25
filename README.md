@@ -13,8 +13,7 @@ yarn global add mll-nj-node-todo
 
 ### 检测安装成功
 ``` bash  
-lm --version
-// 之后控制台会输出相应的版本号，如果无法输出请尝试在命令前增加sudo重试
+lm --version // 之后控制台会输出相应的版本号，如果无法输出请尝试在命令前增加sudo重试
 ``` 
 
 ### 使用
