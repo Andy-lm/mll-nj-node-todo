@@ -1,12 +1,17 @@
 {
   "name": "mll-nj-node-todo",
-  "bin":{
-    "lm":"cli.js"
+  "bin": {
+    "lm": "cli.js"
   },
-  "files": ["*.js"],
+  "files": [
+    "*.js"
+  ],
   "version": "0.0.5",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test":"jest"
+  },
   "dependencies": {
     "commander": "^3.0.2",
     "inquirer": "^8.2.4"
@@ -15,5 +20,8 @@
     "node",
     "task",
     "fs"
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
 }
